@@ -7,7 +7,7 @@
 	├── mac
 	│   └── tree-command-for-mac.md
 	└── sublime
-	└── sublime-react-syntax-highlighting.md
+	    └── sublime-react-syntax-highlighting.md
 
 
 ## 导航
