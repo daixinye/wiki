@@ -1,16 +1,8 @@
 # wiki
 
-做一些微小的整理，方便知识管理和查阅。
-
-	.
-	├── README.md
-	├── mac
-	│   └── tree-command-for-mac.md
-	└── sublime
-	    └── sublime-react-syntax-highlighting.md
+一些简单的知识整理。
 
 
-## 导航
 
 ### 官网
 
@@ -37,7 +29,10 @@
 [iconfont](http://www.iconfont.cn/)
 
 ### NPM工具
+
 [NPM 淘宝 镜像](https://npm.taobao.org/)
 
 ### JS库
+
 [modernizr 检测浏览器支持情况](https://modernizr.com/)
+
