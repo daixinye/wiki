@@ -2,7 +2,7 @@
 
 一些简单的知识整理。
 
-
+[daixinye.com/wiki](https://daixinye.com/wiki)
 
 ### 官网
 
