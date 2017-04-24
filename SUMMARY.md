@@ -13,6 +13,8 @@
 
 ## JavaScript
 
+* [基本数据类型整理](javascript/ji-ben-shu-ju-lei-xing-zheng-li.md)
+
 ## FE
 
 * [跨域方法小结](fe/kua-yu-fang-fa-xiao-jie.md)
