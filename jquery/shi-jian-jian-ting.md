@@ -44,6 +44,48 @@ $('div.foo a).on('click',function(event){
 * event.pageX, event.pageY，用来了解点击发生的坐标位置
 * event.type，用来了解发生的事件
 
+## 简易写法
+
+```
+$('div.foo').click(function(){...});
+$('div.foo').hover(function(){...});
+
+//等等
+```
+
+需要注意的是，`.hover()`监听了两个事件`mouseenter`和`mouseleave`，并且并不是所有事件都有简易的写法。
+
+更多简易写法参考：[jQuery: Events](http://api.jquery.com/category/events/)
+
+## 事件代理
+
+```
+<div class="foo">
+    <ul>
+        <li> 1 </li>
+        <li> 2 </li>
+        ...
+        <li> 1000 </li>
+    </ul>
+</div>
+```
+
+假设有如上这样一个DOM片段，如果用以下方式进行事件监听，则会产生过多的监听器，导致性能问题。
+
+```
+$('div.foo li').on('click',function(event){
+    console.log(event.target);
+})
+```
+
+此时可以使用父元素事件代理（event delegation）的方式来处理，只用了一个监听器。
+
+```
+$('div.foo').on('click','li',function(event){
+    console.log(event.target);
+})
+```
+
 ## 参考
 
 [MDN: Events Catagory](https://developer.mozilla.org/en-US/docs/Web/Events#Categories)
@@ -53,4 +95,6 @@ $('div.foo a).on('click',function(event){
 [jQuery: event.targer](https://api.jquery.com/event.target/)
 
 [W3C: Dom Level-3 Event](https://www.w3.org/TR/DOM-Level-3-Events/)
+
+[jQuery: Event Delegation](https://learn.jquery.com/events/event-delegation/)
 
