@@ -14,6 +14,7 @@
 ## JavaScript
 
 * [基本数据类型整理](javascript/ji-ben-shu-ju-lei-xing-zheng-li.md)
+* [作用域、闭包以及this](javascript/zuo-yong-yu-3001-bi-bao-yi-ji-this.md)
 
 ## FE
 
