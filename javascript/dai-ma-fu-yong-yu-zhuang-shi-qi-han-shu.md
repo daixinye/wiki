@@ -148,9 +148,9 @@ fn.methods = {
 var fn = function(color){
     var obj = {};
     obj.color = color;
-    
+
     extend(obj, fn.methods);
-    
+
     return obj;
 }
 ```
@@ -162,7 +162,7 @@ var fn = function(color){
 var fn = function(color){
     var obj = Object.create(fn.methods);
     obj.color = color;
-    
+
     return obj;
 }
 
@@ -176,7 +176,7 @@ fn.methods = { //... };
 var fn = function(color){
     var obj = Object.create(fn.prototype);
     obj.color = color;
-    
+
     return obj;
 }
 fn.prototype.printColor = function(){
@@ -200,5 +200,29 @@ console.log(foo instanceof fn); // true
 console.log(foo.constructor == fn.prototype.construector); // true
 ```
 
+### new 关键字
 
+在fn中，创建一个对象、原型委托和返回对象是一定会做的一件事情，我们可以通过`new关键字`来简化。
+
+```
+// lib.js
+var fn = function(color){
+    this.color = color;
+}
+```
+
+在使用`new关键字`进行调用时（构造模式），解释器会自动插入两行代码：
+
+```
+// lib.js
+var fn = function(color){
+    this = Object.create(fn.prototype); // 将新对象委托给原型对象
+    
+    this.color;
+    
+    return this; // 返回这个新对象
+}
+```
+
+使用构造模式即使用`new关键字`调用fn函数才能被真正称作“构造函数”。
 
