@@ -40,7 +40,7 @@ var fn = function(obj,color){
     obj.printColor = function(){
         console.log(this.color);
     }
-    
+
     return obj;
 }
 
@@ -86,7 +86,7 @@ var fn = function(obj,color){
     obj.method_2 = method_2;
     // ...
     obj.method_1000 = method_3;
-    
+
     return obj;
 }
 
@@ -104,9 +104,9 @@ var method_1000 = function(){ //... };
 // lib.js
 var fn = function(obj,color){
     obj.color = color;
-    
+
     extend(obj,methods); // extend()代表把methods中的属性复制到obj中，注意它并不是原生的函数
-    
+
     return obj;
 }
 
@@ -126,9 +126,9 @@ var methods = {
 // lib.js
 var fn = function(obj,color){
     obj.color = color;
-    
+
     extend(obj, fn.methods);
-    
+
     return obj;
 }
 
@@ -138,6 +138,66 @@ fn.methods = {
     // ...
     method_1000:function(){ //... }
 }
+```
+
+#### 直接在function内部创建对象
+
+```
+// lib.js
+
+var fn = function(color){
+    var obj = {};
+    obj.color = color;
+    
+    extend(obj, fn.methods);
+    
+    return obj;
+}
+```
+
+## 原型委托
+
+```
+// lib.js
+var fn = function(color){
+    var obj = Object.create(fn.methods);
+    obj.color = color;
+    
+    return obj;
+}
+
+fn.methods = { //... };
+```
+
+### 使用prototype属性
+
+```
+// lib.js
+var fn = function(color){
+    var obj = Object.create(fn.prototype);
+    obj.color = color;
+    
+    return obj;
+}
+fn.prototype.printColor = function(){
+    console.log(this.color);
+}
+```
+
+此时`fn`就是一个“构造函数”，每一个函数对象被创建时都会有一个`prototype`属性，这个属性跟之前的`fn.methods`其实并没有太大的区别，唯一的区别在于`prototype.constructor`指向了函数对象本身。
+
+在我们讨论“实例的原型”和“构造函数的原型”时要注意：“实例的原型”实际上就是`instance.prototype`，在实例中没有的属性会被委托到原型中进行查找。而“构造函数的原型”，实际上是“创建一个对象，并且把这个对象委托给原型进行函数共享”。
+
+### 关系验证
+
+```
+// app.js
+var foo = fn('red');
+var bar = fn('green');
+
+console.log(foo instanceof fn); // true
+// instanceof 操作符 实际上执行的就是下面的操作
+console.log(foo.constructor == fn.prototype.construector); // true
 ```
 
 
