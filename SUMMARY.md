@@ -21,6 +21,10 @@
 
 * [跨域方法小结](fe/kua-yu-fang-fa-xiao-jie.md)
 
+## Canvas
+
+* [基础操作小结](canvas/ji-chu-cao-zuo-xiao-jie.md)
+
 ## HTTP
 
 * [协议基础](/http/xie-yi-ji-chu.md)
