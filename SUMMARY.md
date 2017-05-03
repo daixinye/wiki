@@ -31,3 +31,7 @@
 * [基础操作小结](jquery/ji-chu-cao-zuo-xiao-jie.md)
 * [事件监听](jquery/shi-jian-jian-ting.md)
 
+## Python
+
+* [创建SimpleHTTPServer](python/chuang-jian-simplehttpserver.md)
+
