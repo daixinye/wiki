@@ -1,4 +1,4 @@
-# 代码复用与装饰器函数
+# 代码复用
 
 ## 代码复用的问题
 
@@ -217,12 +217,41 @@ var fn = function(color){
 // lib.js
 var fn = function(color){
     this = Object.create(fn.prototype); // 将新对象委托给原型对象
-    
+
     this.color;
-    
+
     return this; // 返回这个新对象
 }
 ```
 
 使用构造模式即使用`new关键字`调用fn函数才能被真正称作“构造函数”。
+
+### 子类继承
+
+```
+var Human = function(name){
+    this.name = name;
+}
+
+Human.prototype.sayName = function(){
+    console.log(this.name);
+}
+
+var Man = function(name){
+    Human.call(this, name);
+    this.sex = 'male';
+}
+Man.prototype = Object.create(Human.prototype);
+Man.prototype.constructor = Man;
+
+var frank = new Man('frank');
+
+frank.sayName(); // frank
+console.log(frank instanceof Man); // true
+console.log(frank instanceof Human); // true
+```
+
+务必注意`Man`继承`Human`时调用的`Human`方法，其使用`call`方法指定了`this`绑定的对象。`this`在JavaScript中可以作为一个传入的参数来看待，在使用`obj.method()`时，`method`中的`this`指向`obj`，而使用`new method()`时，`this`指向新构造的空对象。
+
+此外，`Man.prototype`对象的原型委托给了`Human.prototype`形成了原型链`。`这里还需要注意要重新指定`Man.prototype.constructor`赋值`Man`。
 

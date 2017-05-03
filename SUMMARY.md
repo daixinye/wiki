@@ -15,7 +15,7 @@
 
 * [基本数据类型整理](javascript/ji-ben-shu-ju-lei-xing-zheng-li.md)
 * [作用域、闭包以及this](javascript/zuo-yong-yu-3001-bi-bao-yi-ji-this.md)
-* [代码复用与装饰器函数](javascript/dai-ma-fu-yong-yu-zhuang-shi-qi-han-shu.md)
+* [代码复用](javascript/dai-ma-fu-yong-yu-zhuang-shi-qi-han-shu.md)
 
 ## FE
 
@@ -23,7 +23,7 @@
 
 ## HTTP
 
-* [协议基础](xie-yi-ji-chu.md)
+* [协议基础](/http/xie-yi-ji-chu.md)
 * [常见的状态码](http/chang-jian-de-zhuang-tai-ma.md)
 
 ## jQuery
