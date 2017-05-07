@@ -26,7 +26,6 @@
 ```
 var canvas = document.querySelecotr('#canvas');
 var ctx = canvas.getContext('2d');
-
 ```
 
 ## 画图片及保存图片
@@ -35,7 +34,7 @@ var ctx = canvas.getContext('2d');
 var img = new Image();
 img.src = 'demo.jpg';
 img.onload = function(){
-    ctx.drawImage(img,0,0,ctx.width,ctx.height);
+    ctx.drawImage(img,0,0,ctx.canvas.width,ctx.canvas.height);
     var saveImg = ctx.toDataURL();
     window.open(saveImg);
 }
@@ -51,14 +50,14 @@ ctx.strokeStyle = '#fff';
 ## 画矩形
 
 ```
-ctx.fillRect(0,0,ctx.width,ctx.height); // 实心
-ctx.strokeRect(0,0,ctx.width,ctx.height); // 空心
+ctx.fillRect(0,0,ctx.canvas.width,ctx.canvas.height); // 实心
+ctx.strokeRect(0,0,ctx.canvas.width,ctx.canvas.height); // 空心
 ```
 
 ## 清除画布
 
 ```
-ctx.clearRect(0,0,ctx.width,ctx.height);
+ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
 ```
 
 ## 路径
