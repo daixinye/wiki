@@ -64,7 +64,7 @@ console.log(b); // 1
 var foo = null;
     bar = 1;
 
-var value = foo || bar; 
+var value = foo || bar;
 ```
 
 也可以用来在函数中对参数进行校验，下面三个函数等价，但是显然第一个是最优雅的。
@@ -75,7 +75,7 @@ function(v){
 }
 
 function(v){
-    var value = v ? v : defaultValue;
+    var value = !!v ? v : defaultValue;
 }
 
 function(v){
