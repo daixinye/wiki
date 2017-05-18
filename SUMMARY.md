@@ -41,3 +41,7 @@
 
 * [创建SimpleHTTPServer](python/chuang-jian-simplehttpserver.md)
 
+## Mac
+
+* [zsh 安装](mac/zsh-an-zhuang.md)
+
