@@ -2,7 +2,7 @@
 
 [daixinye.com/wiki](https://daixinye.com/wiki)
 
-## 官网
+## Sites
 
 [w3c](https://www.w3.org/)
 
@@ -18,7 +18,7 @@
 
 [chrome - extentions](https://developer.chrome.com/extensions)
 
-## 在线工具
+## Tools
 
 [gitignore.io - Create Useful .gitignore Files For Your Project](https://www.gitignore.io/)
 
@@ -28,11 +28,13 @@
 
 [iconfont](http://www.iconfont.cn/)
 
-## NPM工具
+[omyzsh](http://ohmyz.sh/)
+
+## NPM
 
 [NPM 淘宝 镜像](https://npm.taobao.org/)
 
-## JS库
+## JS
 
 [modernizr 检测浏览器支持情况](https://modernizr.com/)
 
