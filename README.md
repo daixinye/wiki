@@ -1,7 +1,5 @@
 # wiki
 
-一些简单的知识整理。
-
 [daixinye.com/wiki](https://daixinye.com/wiki)
 
 ## 官网
@@ -9,6 +7,8 @@
 [w3c](https://www.w3.org/)
 
 [react](https://facebook.github.io/react/)
+
+[vue](https://cn.vuejs.org/)
 
 [webpack2](https://webpack.js.org/)
 
@@ -41,4 +41,6 @@
 [Gitbook 简明教程](http://www.chengweiyang.cn/gitbook/index.html)
 
 [前端工程师手册](https://leohxj.gitbooks.io/front-end-database/html-and-css-advance/ui-framework.html)
+
+[程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/index.html)
 
