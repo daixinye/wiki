@@ -1,6 +1,6 @@
 # wiki
 
-[daixinye.com/wiki](https://daixinye.com/wiki)
+[https://daixinye.gitbooks.io/wiki/](https://daixinye.gitbooks.io/wiki/)
 
 ## Sites
 
