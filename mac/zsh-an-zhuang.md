@@ -36,5 +36,19 @@ chsh -s /usr/local/bin/zsh
 chsh -s /bin/bash
 ```
 
+## 配置
+
+```
+vi ~/.zshrc
+```
+
+### 添加别名
+
+记得去掉\#
+
+```
+alias pysever="python -m SimpleHTTPServer"
+```
+
 
 
