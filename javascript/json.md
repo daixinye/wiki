@@ -12,7 +12,7 @@
 
 解析值本身以及它所包含的值，从里向外调用去调用 `reviver` 函数。属性名和属性值会作为参数传入 `reviver` 中，如果 `reviver` 返回 `undefined` ，那么当前属性就会从对象中删除；如果返回其他值，返回值就会作为当前属性新的属性值。
 
-注意，遍历到顶层时，传入 `reviver` 函数的是空字符串和当前对象，即` {"" : 修改过的解析值 }`。这是个特例，需要特别注意。
+注意，遍历到顶层时，传入 `reviver` 函数的是空字符串和当前对象，即`{"" : 修改过的解析值 }`。这是个特例，需要特别注意。
 
 所以 `reviver` 函数有基本两种种用法：
 
@@ -103,5 +103,9 @@ console.log(jsonString); // {"foundation":"Mozilla","model":"box","week":45,"tra
 
 除此之外，也可以传入转义字符（ `\t` ）来用 tab 进行缩进。
 
+## 参考
 
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/JSON/parse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/JSON/stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 

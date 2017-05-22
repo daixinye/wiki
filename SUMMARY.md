@@ -19,10 +19,12 @@
 * [代码复用及OOP](javascript/dai-ma-fu-yong-yu-zhuang-shi-qi-han-shu.md)
 * [逻辑与（&&）与逻辑或（ \|\| ）](javascript/luo-ji-yu-ff082626-ff09-yu-luo-ji-huo-ff08.md)
 * [JSON](javascript/json.md)
+* [正则表达式](javascript/zheng-ze-biao-da-shi.md)
 
 ## FE
 
 * [跨域方法](fe/kua-yu-fang-fa-xiao-jie.md)
+* [重排和重绘](fe/zhong-pai-he-zhong-hui.md)
 
 ## Canvas
 
@@ -45,4 +47,6 @@
 ## Mac
 
 * [zsh 安装](mac/zsh-an-zhuang.md)
+
+## Git
 
