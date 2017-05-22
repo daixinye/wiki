@@ -25,28 +25,31 @@
 
 * [跨域方法](fe/kua-yu-fang-fa-xiao-jie.md)
 * [重排和重绘](fe/zhong-pai-he-zhong-hui.md)
+* [Hybrid](fe/hybrid.md)
 
 ## Canvas
 
-* [快速入门](canvas/ji-chu-cao-zuo-xiao-jie.md)
+* [基础操作](canvas/ji-chu-cao-zuo-xiao-jie.md)
 
 ## HTTP
 
-* [快速入门](/http/xie-yi-ji-chu.md)
+* [基础概念](/http/xie-yi-ji-chu.md)
 * [常见的状态码](http/chang-jian-de-zhuang-tai-ma.md)
 
 ## jQuery
 
-* [快速入门](jquery/ji-chu-cao-zuo-xiao-jie.md)
+* [基础操作](jquery/ji-chu-cao-zuo-xiao-jie.md)
 * [事件监听](jquery/shi-jian-jian-ting.md)
 
 ## Python
 
-* [创建SimpleHTTPServer](python/chuang-jian-simplehttpserver.md)
+* [创建Web服务器](python/chuang-jian-simplehttpserver.md)
 
 ## Mac
 
-* [zsh 安装](mac/zsh-an-zhuang.md)
+* [zsh](mac/zsh-an-zhuang.md)
 
 ## Git
+
+* [Git 常用命令](git/chang-yong-ming-ling.md)
 

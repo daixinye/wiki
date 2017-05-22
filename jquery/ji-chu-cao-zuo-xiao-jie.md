@@ -1,4 +1,4 @@
-# jQuery基础操作小结
+# jQuery 基础操作小结
 
 ## 元素选择
 
@@ -100,13 +100,13 @@ $('p').each(function(){
 ```
 $(function(){
     alert('the document is ready');
-    
+
     //do something
 })
 
 $(document).ready(function(){
     alert('the document is ready');
-    
+
     //do something
 })
 ```
