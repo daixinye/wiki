@@ -1,8 +1,8 @@
 # wiki
 
-知识整理
-
-[https://daixinye.gitbooks.io/wiki/](https://daixinye.gitbooks.io/wiki/)
+* 知识整理 [https://daixinye.gitbooks.io/wiki/](https://daixinye.gitbooks.io/wiki/)
+* 以前的博客 [http://denight.leanote.com](http://denight.leanote.com)
+* 现在的博客 [http://daixinye.com](http://daixinye.com)
 
 ## Sites
 
