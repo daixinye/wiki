@@ -48,3 +48,7 @@ func1(foo)(func2)(bar);
 
 比如在动画的最后加上margin-top: 1px; 之类（引起浏览器重排）的。
 
+[https://stackoverflow.com/questions/34655201/animate-css-on-ios-safari](https://stackoverflow.com/questions/34655201/animate-css-on-ios-safari)
+
+[https://github.com/daneden/animate.css/issues/519](https://github.com/daneden/animate.css/issues/519)
+
