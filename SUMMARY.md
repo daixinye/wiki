@@ -3,6 +3,7 @@
 ## wiki
 
 * [Introduction](README.md)
+* [Inbox](inbox.md)
 
 ## CSS
 
