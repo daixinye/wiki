@@ -47,7 +47,7 @@ vi ~/.zshrc
 记得去掉\#
 
 ```
-alias pysever="python -m SimpleHTTPServer"
+alias pyserver="python -m SimpleHTTPServer"
 ```
 
 

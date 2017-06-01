@@ -1,9 +1,6 @@
 # Summary
 
-## wiki
-
 * [Introduction](README.md)
-* [Inbox](inbox.md)
 
 ## CSS
 
@@ -49,6 +46,7 @@
 ## Mac
 
 * [zsh](mac/zsh-an-zhuang.md)
+* [tree-command-for-mac](/mac/tree-command-for-mac.md)
 
 ## Git
 
