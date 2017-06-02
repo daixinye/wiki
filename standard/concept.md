@@ -41,5 +41,17 @@ function foo() {}; // 非匿名函数表达式（函数声明），不能被立�
 var bar = function foo(){}; // bar 能够在外部访问，foo 只能在函数内部访问（用于递归）
 ```
 
+### 函数和方法的区别
 
+函数 function ，一般用于面向过程开发。
+
+方法 method，则是用于面向对象开发中的对象。
+
+在 Java 中只有方法，C 中只有函数，而 C++ 取决于是不是在类中。
+
+对于 JavaScript 来说，function 代表了一个由语句组成的代码块，用于完成特定的功能（面向过程）。method 则是 “对象的function”，即如果一个 function 通过 obj 点操作符来进行调用，那么这个 function 就可以被称作（对象的）方法。
+
+参考：
+
+[http://www.cnblogs.com/moltboy/archive/2013/04/24/3040450.html](http://www.cnblogs.com/moltboy/archive/2013/04/24/3040450.html)
 

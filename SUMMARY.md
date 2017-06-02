@@ -11,7 +11,6 @@
 
 ## JavaScript
 
-* [概念](javascript/gai-nian.md)
 * [基本数据类型](javascript/ji-ben-shu-ju-lei-xing-zheng-li.md)
 * [作用域、闭包以及this](javascript/zuo-yong-yu-3001-bi-bao-yi-ji-this.md)
 * [代码复用及OOP](javascript/dai-ma-fu-yong-yu-zhuang-shi-qi-han-shu.md)
@@ -56,6 +55,4 @@
 ## Library
 
 * [Rangy](/library/rangy.md)
-
-
 
