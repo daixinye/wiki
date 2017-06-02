@@ -49,7 +49,7 @@ var bar = function foo(){}; // bar 能够在外部访问，foo 只能在函数�
 
 在 Java 中只有方法，C 中只有函数，而 C++ 取决于是不是在类中。
 
-对于 JavaScript 来说，function 代表了一个由语句组成的代码块，用于完成特定的功能（面向过程）。method 则是 “对象的function”，即如果一个 function 通过 obj 点操作符来进行调用，那么这个 function 就可以被称作（对象的）方法。
+对于 JavaScript 来说，function 代表了一个由语句组成的代码块，用于完成特定的功能（面向过程）。method 则是 “对象的function”，即如果一个 function 通过 object 点操作符来进行调用，那么这个 function 就可以被称作（对象的）方法。
 
 参考：
 
