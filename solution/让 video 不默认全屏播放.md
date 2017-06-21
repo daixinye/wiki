@@ -22,3 +22,11 @@
 
 [https://x5.tencent.com/tbs/guide/video.html](https://x5.tencent.com/tbs/guide/video.html)
 
+## 代码
+
+本来想用 canvas 来模拟播放器的...
+
+[https://github.com/daixinye/practice/blob/master/canvas/player/index.html](https://github.com/daixinye/practice/blob/master/canvas/player/index.html)
+
+
+
