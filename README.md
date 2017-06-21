@@ -12,6 +12,8 @@ Current Blog [http://daixinye.com](http://daixinye.com)
 
 开源项目CDN [http://www.bootcdn.cn/](http://www.bootcdn.cn/)
 
+兼容性查询 [https://caniuse.com/\#](https://caniuse.com/#)
+
 ## Doc 中文
 
 Zepto [http://www.css88.com/doc/zeptojs\_api/\#](http://www.css88.com/doc/zeptojs_api/#$%28%29)
@@ -29,6 +31,4 @@ Zepto 英文 [http://zeptojs.com/](http://zeptojs.com/)
 ## Blog
 
 张鑫旭 [http://www.zhangxinxu.com/](http://www.zhangxinxu.com/)
-
-
 
