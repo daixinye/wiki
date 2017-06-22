@@ -28,7 +28,9 @@ Vue [https://cn.vuejs.org/](https://cn.vuejs.org/)
 
 ## Doc 英文
 
-Zepto 英文 [http://zeptojs.com/](http://zeptojs.com/)
+Zepto [http://zeptojs.com/](http://zeptojs.com/)
+
+Node [https://nodejs.org/docs/latest/api/](https://nodejs.org/docs/latest/api/)
 
 ## Blog
 
