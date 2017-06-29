@@ -26,11 +26,15 @@ CSS3 [http://www.css88.com/book/css/properties/background/background.htm](http:/
 
 Vue [https://cn.vuejs.org/](https://cn.vuejs.org/)
 
+Express [http://www.expressjs.com.cn/](http://www.expressjs.com.cn/)
+
 ## Doc 英文
 
 Zepto [http://zeptojs.com/](http://zeptojs.com/)
 
 Node [https://nodejs.org/docs/latest/api/](https://nodejs.org/docs/latest/api/)
+
+React [https://facebook.github.io/react/](https://facebook.github.io/react/)
 
 ## Blog
 
