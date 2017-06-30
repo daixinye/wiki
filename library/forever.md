@@ -1,4 +1,4 @@
-# Forever 
+# Forever
 
 一个简单的命令行界面工具，让你的脚本永久运行下去。
 
@@ -91,7 +91,7 @@ $ forever --help
  [Long Running Process]
     The forever process will continue to run outputting log messages to the console.
     ex. forever -o out.log -e err.log my-script.js
- 
+
  [Daemon]
     The forever process will run as a daemon which will make the target process start
     in the background. This is extremely useful for remote starting simple node.js scripts
