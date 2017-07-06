@@ -91,11 +91,139 @@ $ chmod +x helloworld.sh
 $ ./helloworld.sh
 ```
 
-## 参考
+## 四、小进阶
+
+在了解了基本的 Shell 编程之后，我们来让 Shell 脚本做更多的事情。
+
+### 1、读取输入
+
+```
+#!/bin/sh
+
+# read.sh
+
+echo "你的名字？"
+read name
+
+echo "你好 $name，很高兴认识你。"
+```
+
+运行一下：
+
+```
+$ /bin/sh read.sh 
+你的名字？
+```
+
+输入 `daixinye`，回车：
+
+```
+你好daixinye，很高兴认识你。
+```
+
+### 2、条件判断
+
+```
+#!/bin/sh
+
+# if.sh
+
+echo "你的年龄？"
+read age
+
+# 注意 等号左右两边 不能有空格
+myAge=18
+
+# 注意 方括号内部前后 需要有空格
+if [ $age == $myAge ]
+    then 
+        echo "我们岁数一样哦"
+    else 
+        echo "我们岁数不一样哦" 
+fi
+```
+
+运行一下：
+
+```
+$ /bin/sh if.sh 
+你的年龄？
+```
+
+输入 `18`，回车：
+
+```
+我们岁数一样哦
+```
+
+### 3、条件循环
+
+```
+#!/bin/sh
+
+# while.sh
+
+echo "我有一个数字，你要来猜一下吗？1~1000哦"
+
+answer=666
+bingo=0
+
+while [ $bingo == 0 ]; do 
+    read guess
+    if [ $guess == $answer ]
+        then
+            echo "猜对啦"
+            bingo=1
+        else
+            echo "猜错啦，再猜一次吧？"
+    fi
+done
+```
+
+运行一下：
+
+```
+$ /bin/sh while.sh 
+我有一个数字，你要来猜一下吗？1~1000哦
+```
+
+依次输入1、5、10、100、600、666 ：
+
+```
+1
+猜错啦，再猜一次吧？
+5
+猜错啦，再猜一次吧？
+10
+猜错啦，再猜一次吧？
+100
+猜错啦，再猜一次吧？
+600
+猜错啦，再猜一次吧？
+666
+猜对啦
+```
+
+## 五、小结
+
+好啦，通过本文你应该已经了解了以下几个知识点：
+
+1. 如何写一个基本 Shell脚本
+2. 如何打印内容（echo）
+3. 如何运行脚本（作为参数和作为可执行程序）
+4. 如何读取输入（read）
+5. 如何进行条件判断（if...else 语句）
+6. 如何进行条件循环（while... do 语句）
+
+## 本文参考
 
 [https://my.oschina.net/maczhao/blog/349452](https://my.oschina.net/maczhao/blog/349452)
 
-### 
+## 测试代码
+
+[https://github.com/daixinye/practice/tree/master/shell](https://github.com/daixinye/practice/tree/master/shell)
+
+
 
 
 
