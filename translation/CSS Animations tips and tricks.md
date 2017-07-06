@@ -11,19 +11,11 @@ Here's one way to do it that we feel is stable and reliable enough to suggest to
 First, let's define the HTML for a {{HTMLElement\("div"\)}} we wish to animate and a button that will play \(or replay\) the animation.
 
 ```
-<
-div class="box"
->
-<
-/div
->
-<
-div class="runButton"
->
-Click me to run the animation
-<
-/div
->
+<div class="box">
+</div>
+<div class="runButton">
+  Click me to run the animation
+</div>
 ```
 
 ### CSS content {#CSS_content}
