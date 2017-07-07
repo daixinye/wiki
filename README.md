@@ -40,6 +40,8 @@ Koa [http://koajs.com/](http://koajs.com/)
 
 MDN [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
 
+Webpack [https://webpack.js.org/configuration/](https://webpack.js.org/configuration/)
+
 ## Blog
 
 张鑫旭 [http://www.zhangxinxu.com/](http://www.zhangxinxu.com/)
