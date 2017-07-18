@@ -28,6 +28,8 @@ Vue [https://cn.vuejs.org/](https://cn.vuejs.org/)
 
 Express [http://www.expressjs.com.cn/](http://www.expressjs.com.cn/)
 
+Electron [https://github.com/amhoho/electron-cn-docs](https://github.com/amhoho/electron-cn-docs)
+
 ## Doc 英文
 
 Zepto [http://zeptojs.com/](http://zeptojs.com/)
